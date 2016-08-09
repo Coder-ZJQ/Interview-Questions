@@ -1,25 +1,25 @@
 # My Interview Questions:
 
-1. [栈内存与堆内存。](https://github.com/Coder-ZJQ/Interview-Questions#栈内存与堆内存。)
+1. [栈内存与堆内存。](https://github.com/Coder-ZJQ/Interview-Questions#1-栈内存与堆内存)
 2. [@property 、 @synthesize 与 @dynamic 的作用。](https://github.com/Coder-ZJQ/Interview-Questions#@property 、 @synthesize 与 @dynamic 的作用。)
-3. [@property 有哪些关键字？](https://github.com/Coder-ZJQ/Interview-Questions#@property 有哪些关键字？)
+3. [@property 有哪些关键字？](https://github.com/Coder-ZJQ/Interview-Questions#3-property-有哪些关键字)
 4. [\#define 与 const 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#\#define 与 const 的区别。)
 5. [int 、NSInteger 、NSNumber之间的区别。](https://github.com/Coder-ZJQ/Interview-Questions#int 、NSInteger 、NSNumber之间的区别。)
-6. [\#import "" 、\#import <> 、\#include 、@class 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#\#import "" 、\#import <> 、\#include 、@class 的区别。)
-7. [protocol 、category 、extension 的使用场景与区别。](https://github.com/Coder-ZJQ/Interview-Questions#protocol 、category 、extension 的使用场景与区别。)
-8. [Objective-C 中有哪几种数据存储方式。](https://github.com/Coder-ZJQ/Interview-Questions#Objective-C 中有哪几种数据存储方式。)
-9. [id 与 instancetype 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#id 与 instancetype 的区别。)
-10. [NSNotification 、delegate 、KVO 的应用场景与区别。](https://github.com/Coder-ZJQ/Interview-Questions#NSNotification 、delegate 、KVO 的应用场景与区别。)
-11. [block 的使用注意点。](https://github.com/Coder-ZJQ/Interview-Questions#block 的使用注意点。)
-12. [应用的上架流程。](https://github.com/Coder-ZJQ/Interview-Questions#应用的上架流程。)
-13. [什么是企业发布。](https://github.com/Coder-ZJQ/Interview-Questions#什么是企业发布。)
-14. [客户端下的缓存机制。](https://github.com/Coder-ZJQ/Interview-Questions#客户端下的缓存机制。)
-15. [静态库与动态库的区别。](https://github.com/Coder-ZJQ/Interview-Questions#静态库与动态库的区别。)
-16. [如何给应用添加字体。](https://github.com/Coder-ZJQ/Interview-Questions#如何给应用添加字体。)
-17. [单例的实现。](https://github.com/Coder-ZJQ/Interview-Questions#单例的实现。)
-18. [nil 、Nil 、NULL 、NSNull 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#nil 、Nil 、NULL 、NSNull 的区别。)
-19. [Foundation对象与Core Foundation对象有什么区别。](https://github.com/Coder-ZJQ/Interview-Questions#Foundation对象与Core Foundation对象有什么区别。)
-20. [以下代码的打印结果是什么？为什么？](https://github.com/Coder-ZJQ/Interview-Questions#以下代码的打印结果是什么？为什么？)     
+6. [\#import "" 、\#import <> 、\#include 、@class 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#6-import--import--include-class-的区别)
+7. [protocol 、category 、extension 的使用场景与区别。](https://github.com/Coder-ZJQ/Interview-Questions#7-protocol-category-extension-的使用场景与区别)
+8. [Objective-C 中有哪几种数据存储方式。](https://github.com/Coder-ZJQ/Interview-Questions#8-objective-c-中有哪几种数据存储方式)
+9. [id 与 instancetype 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#9-id-与-instancetype-的区别)
+10. [NSNotification 、delegate 、KVO 的应用场景与区别。](https://github.com/Coder-ZJQ/Interview-Questions#10-nsnotification-delegate-kvo-的应用场景与区别)
+11. [block 的使用注意点。](https://github.com/Coder-ZJQ/Interview-Questions#11-block-的使用注意点)
+12. [应用的上架流程。](https://github.com/Coder-ZJQ/Interview-Questions#12-应用的上架流程)
+13. [什么是企业发布。](https://github.com/Coder-ZJQ/Interview-Questions#13-什么是企业发布)
+14. [客户端下的缓存机制。](https://github.com/Coder-ZJQ/Interview-Questions#14-客户端下的缓存机制)
+15. [静态库与动态库的区别。](https://github.com/Coder-ZJQ/Interview-Questions#15-静态库与动态库的区别)
+16. [如何给应用添加字体。](https://github.com/Coder-ZJQ/Interview-Questions#16-如何给应用添加字体)
+17. [单例的实现。](https://github.com/Coder-ZJQ/Interview-Questions#17-单例的实现)
+18. [nil 、Nil 、NULL 、NSNull 的区别。](https://github.com/Coder-ZJQ/Interview-Questions#18-nil-nil-null-nsnull-的区别)
+19. [Foundation对象与Core Foundation对象有什么区别。](https://github.com/Coder-ZJQ/Interview-Questions#19-foundation对象与core-foundation对象有什么区别)
+20. [以下代码的打印结果是什么？为什么？](https://github.com/Coder-ZJQ/Interview-Questions#20-以下代码的打印结果是什么为什么)     
 ``` objc
 @interface JQApple : JQFruit
 @end
@@ -40,7 +40,8 @@
 # My Answers:
 #### 1. 栈内存与堆内存。
 - **栈内存(stack)**：由系统自动分配，一般存放函数的参数值、局部变量等。由编译器自动创建与释放，创建与释放的方式类似于数据结构中的栈，先创建的后释放，后创建的先释放。
-- **堆内存(heap)**：一般由程序员自主创建，最终也由程序员释放，若是创建了没释放，则会产生`memory leak`。一般用于存放全局变量或静态变量等。
+- **堆内存(heap)**：一般由程序员自主创建，最终也由程序员释放，若是创建了没释放，则会产生`memory leak`。一般用于存放全局变量或静态变量等。   
+
 #### 2. @property 、 @synthesize 与 @dynamic 的作用。
 - **@property**: 用于声明成员变量的 getter/setter 方法，控制成员变量的访问权限，控制多线程时成员变量的访问环境。
 - **@synthesize**: 与 @property 配套使用。@synthesize 会自动生成一个`_`开头的成员变量（若是不另外指定的话），并实现 @property 声明的 getter&setter 方法。
@@ -86,6 +87,7 @@
 @end
 ```
 ***（Tips：在都没有使用 @synthesize 以及 @dynamic 时，默认为 `@synthesize propertyName = _propertyName;`。但若是同时实现了 getter&setter 方法，则隐含表示为 `@dynamic propertyName;` 因此编译器并不会自动生成成员变量，此时若是使用成员变量则会出现 “Use undeclared identifier” 错误。解决方法可以在类的声明中自主添加私有的成员变量，或者使用 @synthesize，告知编译器自动生成成员变量。）***
+
 #### 3. @property 有哪些关键字？
 `@property`的关键字主要分为以下几类：   
 
@@ -105,26 +107,41 @@
 - **`getter&setter`方法名**：   
 自定义属性的 getter&setter 方法名，一般常用于 `BOOL` 类型属性的 getter 方法，如：`@property (getter=isOpen)BOOL *open;`。
 - **可否为空`Nullability Annotation`**（`nullable/nonnull/null_resettable/null_unspecified`）：为了与 swift 混编，适配 swift 中的 optional 可选类型而新增的关键字，比较少用到。
+
 #### 4. \#define 与 const 的区别。
 - **\#define**: 
 - **const**: 
+
 #### 5. int 、NSInteger 、NSNumber之间的区别。
 
 #### 6. \#import "" 、\#import <> 、\#include 、@class 的区别。
 
 #### 7. protocol 、category 、extension 的使用场景与区别。
+
 #### 8. Objective-C 中有哪几种数据存储方式。
+
 #### 9. id 与 instancetype 的区别。
+
 #### 10. NSNotification 、delegate 、KVO 的应用场景与区别。
+
 #### 11. block 的使用注意点。
+
 #### 12. 应用的上架流程。
+
 #### 13. 什么是企业发布。
+
 #### 14. 客户端下的缓存机制。
+
 #### 15. 静态库与动态库的区别。
+
 #### 16. 如何给应用添加字体。
+
 #### 17. 单例的实现。
+
 #### 18. nil 、Nil 、NULL 、NSNull 的区别。
+
 #### 19. Foundation对象与Core Foundation对象有什么区别。
+
 #### 20. 以下代码的打印结果是什么？为什么？   
 ``` objc
 @interface JQApple : JQFruit
